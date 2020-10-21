@@ -24,28 +24,32 @@ class Github extends Component{
     render(){
         let {user, repo} =this.state;
         return <>
-            <div className="row"></div>
-                <div className="col-3 fundo">
-                    <p>Meu GitHub Infos</p>
-                    <p>
-                        login:@{user.login} <br/>
-                        Localização:{user.location} <br/>
-                        Seguidores:{user.followers} <br/>
-                        Seguindo:{user.following} <br/>
-                        Foto Do Perfil:<img src={user.avatar_url}></img>
-                    </p>
-                </div>
-                <div className="col-9 fundo">
+            <div className="container">
+                <div className="row">
+                    <div className="col-3 border">
+                            <p className="titulo">Meu GitHub Infos</p>
+                        <div className="card bg-card">
+                            Foto Do Perfil:<img className="circle-photo" src={user.avatar_url}></img> <br/>
+                            login:@{user.login} <br/>
+                            Localização:{user.location} <br/>
+                            Seguidores:{user.followers} <br/>
+                            Seguindo:{user.following} <br/>
+                            <p>Twitter:<a href="https://twitter.com/gabriel_gaiatto"> @{user.twitter_username}</a></p> <br/>
+                        </div>
+                    </div>
+                    <div className="col-9 border">
                     {repo.map(
                         repositorio => 
-                        <p>
-                            Nome Do Repositorio: {repositorio.name}
-                            Descrição: {repositorio.description}
-                            Link do Repositório: <a href={repositorio.html_url}>Clique Aqui</a>
-                        </p>
-                        
-                    )}
-                </div>
+                            <div className="card bg-card">
+                                Nome Do Repositorio: {repositorio.name} <br/>
+                                Descrição: {repositorio.description}    <br/>
+                                Link do Repositório: <a href={repositorio.html_url}>Clique Aqui</a>
+                            </div>
+                            
+                        )}
+                    </div>
+               </div>
+            </div>
 
 
 

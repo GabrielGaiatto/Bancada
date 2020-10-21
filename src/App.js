@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Git from './pages/github/github'
+import Apidragon from './pages/api-dragon/api-dragon'
 
 
 function App() {
   return (
     <div className="git">
-      <Git></Git>
+      {/* <Git></Git> */}
+      <Apidragon></Apidragon>
     </div>
   );
 }

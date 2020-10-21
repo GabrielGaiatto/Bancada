@@ -1,4 +1,24 @@
 .fundo{
     background-color: #282c34;
     color: #61dafb;
+    text-align: center;
+}
+
+.bg-card{
+    background-color: #343b47!important;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.circle-photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.titulo{
+    font-size: 22px;
+    text-align: center;
 }
