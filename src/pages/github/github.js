@@ -26,7 +26,7 @@ class Github extends Component{
         return <>
             <div className="container">
                 <div className="row">
-                    <div className="col-3 border">
+                    <div className="col-md-3 col-12 border">
                             <p className="titulo">Meu GitHub Infos</p>
                         <div className="card bg-card">
                             Foto Do Perfil:<img className="circle-photo" src={user.avatar_url}></img> <br/>
@@ -37,7 +37,7 @@ class Github extends Component{
                             <p>Twitter:<a href="https://twitter.com/gabriel_gaiatto"> @{user.twitter_username}</a></p> <br/>
                         </div>
                     </div>
-                    <div className="col-9 border">
+                    <div className="col-md-9 col-12 border">
                     {repo.map(
                         repositorio => 
                             <div className="card bg-card">

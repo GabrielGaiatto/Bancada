@@ -1,0 +1,30 @@
+footer{
+    background-color: rgb(10, 19, 31);
+    color: rgb(202, 202, 202);
+}
+
+.img img{
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+    
+}
+.copyright{
+    font-size: 11px;
+    text-align: center;
+}
+.contato p a{
+    color: rgb(202, 202, 202);
+}
+.contato p a:hover{
+    color: rgb(202, 202, 202);
+}
+.contato p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.endereço{
+    font-size: 16px;
+    text-align: right;
+}

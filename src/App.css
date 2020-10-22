@@ -2,3 +2,8 @@
   background-color: #282c34;
   color: #61dafb;
 }
+
+.App{
+  cursor: url("./cursor-lol.png"), auto;
+}
+
