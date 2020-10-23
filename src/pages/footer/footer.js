@@ -10,7 +10,7 @@ import INSTA from '../../img/instagram-icon.png'
 class Footer extends Component{
     render(){
         return (
-            <footer className="pt-5">
+            <footer className="pt-4">
                 <div className="container">
 
 

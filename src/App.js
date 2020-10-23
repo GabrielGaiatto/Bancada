@@ -5,10 +5,18 @@ import Apidragon from './pages/api-dragon/api-dragon'
 import Footer from './pages/footer/footer'
 
 
+
 function App() {
   return (
     <div className="git App">
-      {/* <Git></Git> */}
+      <header className="py-3 header">
+        <nav className="container">
+          <img></img>
+          <a>GitHub</a>
+        </nav>
+        
+      </header>
+      <Git></Git>
       <Apidragon></Apidragon>
       <Footer></Footer>
     </div>

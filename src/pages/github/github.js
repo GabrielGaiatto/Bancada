@@ -12,11 +12,11 @@ class Github extends Component{
     }
     
     componentDidMount(){
-        fetch('https://api.github.com/users/GabrielGaiatto')
+        fetch('https://api.github.com/users/mdo')
         .then( response => response.json() )
         .then( data => {this.setState({user: data})} );
 
-        fetch('https://api.github.com/users/GabrielGaiatto/repos')
+        fetch('https://api.github.com/users/mdo/repos')
         .then( response => response.json() )
         .then( data => {this.setState({repo: data})} );
     }

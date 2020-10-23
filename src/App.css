@@ -7,3 +7,21 @@
   cursor: url("./cursor-lol.png"), auto;
 }
 
+.nav-links{
+  text-align: center;
+}
+
+.header{
+    background-color: rgb(10, 19, 31);
+    color: rgb(202, 202, 202);
+   
+}
+.home{
+  text-align: left;
+}
+
+.github{
+  text-align: center;
+}
+
+
