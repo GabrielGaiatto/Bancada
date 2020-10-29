@@ -21,21 +21,21 @@ class Apidragon extends Component {
     .then( data => {this.setState({listDragons: data})} );
   }
 
-  onCreate(event){
-    event.preventDefault();
-    let form = event.target;
+  async onCreate(event){
+    // event.preventDefault();
+    // let form = event.target;
 
 
     const dragon = {
-      name: form.elements.name.value,
-      type: form.elements.type.value
+      name: "Banguela",
+      type: "furia da noite"
     };
     const request = {
       method: 'POST',
       headers: {'Content-type': 'aplication/json'},
       body: JSON.stringify(dragon)
     }
-    fetch('http://5c4b2a47aa8ee500142b4887.mockapi.io/api/v1/dragon', request)
+    await fetch('http://5c4b2a47aa8ee500142b4887.mockapi.io/api/v1/dragon', request)
     .then(response => response.json())
     .then(response2 => this.getList())
   }
@@ -63,7 +63,7 @@ render(){
     const {listDragons, showAlert, showModal} = this.state
       return <>
         <div className="container">
-          <button onClick={() => this.handleModalOpen()} className="btn btn-success float-right mt-2">Criar</button>
+          <button className="btn btn-success buttons2 infos m-2" onClick={() => this.onCreate()}>Criar</button>
           <div className="row">
             <div className="col">
                 <table className="table">
@@ -100,7 +100,7 @@ render(){
             </div>
           </div>
         </div>
-        <Modal show={showModal} onHide={() => this.handleModalClose()}>
+        {/* <Modal show={showModal} onHide={() => this.handleModalClose()}>
           <Modal.Header closeButton>
             <ModalTitle>Criar Dragão</ModalTitle>
           </Modal.Header>
@@ -122,7 +122,7 @@ render(){
               Close 
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
   </>
   }
 }

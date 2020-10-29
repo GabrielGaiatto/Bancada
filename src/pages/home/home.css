@@ -1,0 +1,54 @@
+.home{
+    background-color: rgb(25, 29, 46);
+    color: rgb(202, 202, 202);
+}
+
+.titulo{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 1rem;
+}
+
+.foto{
+    height: 100%;
+    width: 100%;
+}
+
+.borda{
+    border: 1px floralwhite solid;
+    border-radius: 10px 10px;
+    
+}
+
+.infos h5{
+    text-align: left;
+}
+
+.gragas{
+    color: goldenrod;
+}
+
+.darius{
+    color: maroon;
+}
+
+.jax{
+    color: blueviolet;
+}
+
+.shaco{
+    color: red;
+}
+
+.habilidades{
+    height: 2vw;
+    width: 2vw;
+}
+
+@media only screen and (max-width: 600px){
+  .infos h5{
+      font-size: 100%;  
+  }
+
+  
+}

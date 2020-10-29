@@ -34,7 +34,7 @@ class Github extends Component{
                             Localização:{user.location} <br/>
                             Seguidores:{user.followers} <br/>
                             Seguindo:{user.following} <br/>
-                            <p>Twitter:<a href="https://twitter.com/gabriel_gaiatto"> @{user.twitter_username}</a></p> <br/>
+                            <p>Twitter:<a href="https://twitter.com/mdo"> @{user.twitter_username}</a></p> <br/>
                         </div>
                     </div>
                     <div className="col-md-9 col-12 border">
