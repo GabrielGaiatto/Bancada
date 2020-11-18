@@ -14,9 +14,9 @@ function App() {
     <div className="git App">
       <header className="py-3 header">
         <nav className="nav-links navbar navbar-expand-md">
-          <Link className='px-2' to='/'>Home</Link>
-          <Link className='px-2' to='/apidragon'>ApiDragon</Link> 
-          <Link className='px-2' to='/git'>GitHub</Link>
+          <Link className='px-2 cor' to='/'>Home</Link>
+          <Link className='px-2 cor' to='/apidragon'>ApiDragon</Link> 
+          <Link className='px-2 cor' to='/git'>GitHub</Link>
         </nav>
       </header>
       {routesConfig.map(

@@ -14,9 +14,9 @@ class Footer extends Component{
                 <div className="container">
 
 
-                        <p>Redes Sociais</p>
-                    <div className="row img">
-                        <div className="row">
+                        <p className="redes">Redes Sociais</p>
+                    <div className="row img ">
+                        <div className="row ">
                             <a href="https://www.facebook.com.br"><img src={FB}></img></a>
                             <a href="https://twitter.com/login?lang=pt"><img src={TT}></img></a>
                             <a href="https://www.youtube.com/"><img src={YT}></img></a>
@@ -33,11 +33,10 @@ class Footer extends Component{
                         </div>
                         
                         <div className="col">
-                            <p className="endereço ml-5">
-                                Endereço: <br/> 
+                            <p className="endereço ml-5 redes">
+                                Endereço:
                                 Avenida Açucena 432 <br/>
-                                Bairro Moinhos de vento <br/>
-                                Canoas 
+                                Bairro: Moinhos de vento, Canoas 
                             </p>
                         </div>
                     </div>

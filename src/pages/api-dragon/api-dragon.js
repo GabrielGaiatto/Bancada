@@ -27,8 +27,8 @@ class Apidragon extends Component {
 
 
     const dragon = {
-      name: "Banguela",
-      type: "furia da noite"
+      name: "Banguelaa",
+      type: "Furia Da noite"
     };
     const request = {
       method: 'POST',
@@ -71,7 +71,7 @@ render(){
                     <tr>
                       <th>ID</th>
                       <th>Nome</th>
-                      <th>Tipo</th>
+                      {/* <th>Tipo</th> */}
                       {/* <th>Data</th> */}
                       <th>Ações</th>
                     </tr>
@@ -82,7 +82,7 @@ render(){
                     <tr>
                       <td>{dragon.id}</td>
                       <td>{dragon.name}</td>
-                      <td>{dragon.type}</td>
+                      {/* <td>{dragon.type}</td> */}
                       {/* <td>{dragon.createdAt}</td> */}
                       <td>
                         <button onClick={() => this.onDelete(dragon.id)} className="btn btn-danger ml-1">Deletar</button>
