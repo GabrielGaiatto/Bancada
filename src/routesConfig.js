@@ -5,18 +5,18 @@ import Home from './pages/home/home';
 const routesConfig = [
     {
         path: '/', 
-        component: Apidragon,
+        component: Home,
         exact: true,
 
     },
     {
-        path: '/github',
-        component: Github ,
+        path: '/apidragon',
+        component: Apidragon ,
         exact:true,
     },
     {
-        path: '/home',
-        component: Home,
+        path: '/git',
+        component: Github,
         exact: true,
     }
 ]
