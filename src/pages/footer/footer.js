@@ -42,7 +42,7 @@ class Footer extends Component{
                         </div>
                     </div>
                 </div>
-                <p className="copyright pb-2">Copyright@2020 - Gordobel Gaiatto</p>
+                <p className="copyright pb-2">Copyright@2020 - Gabriel Gaiatto</p>
             </footer>
         );
     }

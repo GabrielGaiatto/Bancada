@@ -30,55 +30,62 @@ class Home extends Component{
     render(){
         return (
             <div className="home pb-2">
-                <p className="titulo container col-1">LoL Wiki</p>
+                <h1 className="titulo">League Of Legends Wiki</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-3">
-                            <img className="foto" src={Magras}></img>
-                        </div>
-                        <div className="col-3">
-                            <img className="foto" src={Darius}></img>
-                        </div>
-                        <div  className="col-3">
-                            <img className="foto" src={Jajax}></img>
-                        </div>
-                        <div className="col-3">
-                            <img className="foto" src={Shaco}></img>
-                        </div>
+                        
+                        
+                        
+                        
                     </div>
                     <div className="row text-center infos mt-5">
-                        <div className="col-md-5 mr-md-5 borda">
+                    <div className="col-3">
+                            <img className="foto" src={Magras}></img>
+                        </div>
+                        <div className="col-md-8 mr-md-5 borda">
                             <h3 className="gragas">Gragas</h3>
                             <h5>Passiva: HappyHour <img className="habilidades" src={HappyHour}></img></h5>
                             <h5>Q: Barril <img className="habilidades" src={Barril}></img></h5>
                             <h5>W: Bebedeira <img className="habilidades" src={Bebedeira}></img></h5>
                             <h5>E: Barrigada <img className="habilidades" src={Barrigada}></img></h5>
-                            <h5>R: Barril Explosivo <img className="habilidades" src={Ult}></img></h5>
+                            <h5>R: Barril Explosivo <img className="habilidades" src={Ult}></img></h5> <br/>
+                            <h5>Igualmente alegre e imponente, Gragas é um gigante e arruaceiro mestre-cervejeiro em uma busca pessoal pelo mais perfeito caneco de cerveja. Vindo de partes desconhecidas, ele busca por ingredientes raros entre a vastidão intocada de Freljord, testando cada receita enquanto segue seu caminho. Frequente embriagado e extremamente impulsivo, ele é lendário pelas lutas de bar que começa, que quase sempre acabam em festas que duram a noite toda e em muitos danos de propriedade. Qualquer aparição de Gragas certamente será seguida de bebidas e destruição, nessa ordem.</h5>
                         </div>
-                        <div className="col-md-5 mr-md-5 borda">
+                        <div className="col-3">
+                            <img className="foto" src={Darius}></img>
+                        </div>
+                        <div className="col-md-8 mr-md-5 borda">
                             <h3 className="darius">Darius</h3>
                             <h5>Passiva: Hemorragia <img className="habilidades" src={Hemorragia}></img></h5>
                             <h5>Q: Dizimar <img className="habilidades" src={Dizimar}></img></h5>
                             <h5>W: Ataque Mutilador <img className="habilidades" src={Mutilador}></img></h5>
                             <h5>E: Apreender <img className="habilidades" src={Apreender}></img></h5>
-                            <h5>R: Guilhotina De Noxus <img className="habilidades" src={Guilhotina}></img></h5>
+                            <h5>R: Guilhotina De Noxus <img className="habilidades" src={Guilhotina}></img></h5> <br/>
+                            <h5>Não há símbolo maior do poder de Noxus do que Darius, o mais temido e experiente comandante da nação. Vindo de origens humildes para se tornar a Mão de Noxus, ele corta seu caminho através dos inimigos do império; muitos dos quais são, inclusive, noxianos. Sabendo que ele nunca duvida da integridade de sua causa e que nunca hesita assim que seu machado é levantado, aqueles que desafiam o comandante da Legião Trifária não esperam por misericórdia.</h5>
                         </div>
-                        <div className="col-md-5 mr-md-5 borda">
+                        <div  className="col-3">
+                            <img className="foto" src={Jajax}></img>
+                        </div>
+                        <div className="col-md-8 mr-md-5 borda">
                             <h3 className="jax">Jax</h3>
                             <h5>Passiva: Investida Implacável <img className=" habilidades" src={Investida}></img></h5>
                             <h5>Q: Salto Ataquante <img className="habilidades" src={Salto}></img></h5>
                             <h5>W: Energizar <img className="habilidades" src={Energizar}></img></h5>
                             <h5>E: Contra-Ataque <img className=" habilidades" src={ContraAtaque}></img></h5>
-                            <h5>R: Poder Do Grão-Mestre <img className="habilidades" src={Poder}></img></h5>
+                            <h5>R: Poder Do Grão-Mestre <img className="habilidades" src={Poder}></img></h5> <br/>
+                            <h5>Incomparável tanto por suas habilidades com armamentos incomuns quanto pelo seu sarcasmo mordaz, Jax é o último mestre de armas de Icathia conhecido. Depois de sua terra natal ter sido derrotada por sua própria arrogância ao libertar o Vazio, Jax e seu povo juraram proteger o pouco que restou. Com a magia se espalhando pelo mundo, essa ameaça dormente acordou novamente e agora Jax vaga por Valoran carregando a última luz de Icathia e testando todo guerreiro encontrar para descobrir se algum deles é forte o suficiente para lutar ao seu lado...</h5>
                         </div>
-                        <div className="col-md-5 mr-md-5 borda">
+                        <div className="col-3">
+                            <img className="shaco1" src={Shaco}></img>
+                        </div>
+                        <div className="col-md-8 mr-md-5 borda">
                             <h3 className="shaco">Shaco</h3>
                             <h5>Passiva: Apunhalar <img className="habilidades" src={Apunhalar}></img></h5>
                             <h5>Q: Enganar <img className="habilidades" src={Enganar}></img></h5>
                             <h5>W: Caixinha-Surpresa(Box) <img className="habilidades" src={Box}></img></h5>
                             <h5>E: Veneno de dois Gumes <img className="habilidades" src={Faca}></img></h5>
-                            <h5>R: Alucinações <img className="habilidades" src={Alucinações}></img></h5>
-
+                            <h5>R: Alucinações <img className="habilidades" src={Alucinações}></img></h5> <br/>
+                            <h5>Criado anos atrás como um brinquedo para um príncipe solitário, Shaco, a marionete encantada, agora se deleita com assassinatos e desordem. Corrompido por magia das trevas e pela perda de seu dono querido, o boneco que já fora gentil agora encontra prazer somente na miséria das próprias almas que ele atormenta. Ele usa brinquedos e truques simples para conseguir efeitos mortais, achando os resultados de seus “jogos” sangrentos hilários. E para aqueles que escutam uma risada sombria na calada da noite, o Bufão Demoníaco pode tê-los marcado como seu próximo brinquedo.</h5>
                         </div>
                     </div>
                 </div>

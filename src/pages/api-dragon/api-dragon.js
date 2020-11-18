@@ -72,7 +72,7 @@ render(){
                       <th>ID</th>
                       <th>Nome</th>
                       <th>Tipo</th>
-                      <th>Data</th>
+                      {/* <th>Data</th> */}
                       <th>Ações</th>
                     </tr>
                   </thead>
@@ -83,7 +83,7 @@ render(){
                       <td>{dragon.id}</td>
                       <td>{dragon.name}</td>
                       <td>{dragon.type}</td>
-                      <td>{dragon.createdAt}</td>
+                      {/* <td>{dragon.createdAt}</td> */}
                       <td>
                         <button onClick={() => this.onDelete(dragon.id)} className="btn btn-danger ml-1">Deletar</button>
                         <button onClick={() => this.onEdit(dragon.id)} className="btn btn-primary ml-1">Editar</button>
